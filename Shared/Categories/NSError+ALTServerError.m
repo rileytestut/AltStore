@@ -117,7 +117,7 @@ NSErrorUserInfoKey const ALTProvisioningProfileBundleIDErrorKey = @"bundleIdenti
     {
         case ALTServerErrorConnectionFailed:
         case ALTServerErrorDeviceNotFound:
-            return NSLocalizedString(@"Make sure you have trusted this device with your computer and WiFi sync is enabled.", @"");
+            return NSLocalizedString(@"Make sure you have trusted this device with your computer and Wi-Fi sync is enabled.", @"");
             
         case ALTServerErrorPluginNotFound:
             return NSLocalizedString(@"Make sure Mail is running and the plug-in is enabled in Mail's preferences.", @"");
